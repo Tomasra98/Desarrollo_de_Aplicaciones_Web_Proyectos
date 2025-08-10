@@ -3,7 +3,7 @@
 Bienvenido a mi repositorio donde encontrarás diversos proyectos prácticos de desarrollo web. Cada rama contiene un proyecto independiente y funcional listo para explorar.
 
 ## Autor  
-Tomás Ramírez Agudelo
+Tomas Ramírez Agudelo
 
 ## Contenido  
 Este repositorio alberga múltiples proyectos de aplicaciones web, cada uno ubicado en su propia rama. Los proyectos cubren diferentes tecnologías y conceptos del desarrollo web moderno.
