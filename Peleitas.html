@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peleitas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- Las alertas animadas y bonitas, hay que usar este script poniendo esa dirección -->
+
+
+</head>
+
+<body>
+
+    <h1 id="turno_jugador" >Turno del Jugador 1</h1>
+    <div class="container" >
+        <div class="jugador" id="jugador_1" >
+            <h1 >Jugador 1</h1>
+            <img class="scorpion" src="images/Scorpion.png" > 
+            <div class="vida-información">
+                <div class="cantidad_vida" id="cantidad_vida_jugador_1" > </div>
+                <h1 class="vida_en_texto" id="vida_en_texto_jugador_1" >100 / 100</h1>
+            </div>
+        </div>
+
+        <div class="jugador" id="jugador_2" >
+            <h1 >Jugador 2</h1>
+            <img class="ryu" src="images/Ryu.png" >
+            <div class="vida-información">
+                <div class="cantidad_vida" id="cantidad_vida_jugador_2" ></div>
+                <h1 class="vida_en_texto" id="vida_en_texto_jugador_2" >100 / 100</h1>
+            </div>
+        </div>
+
+
+    <button class="boton_atacar" onclick="Atacar()" >Golpear al Rival</button>
+    <script src="script.js" ></script>
+
+</body>
+</html>
